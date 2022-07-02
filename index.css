@@ -6,7 +6,7 @@ h1{
 p{
     color: red;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
+    font-style:inherit;
     text-align: center;
     background-color: aqua;
 }
@@ -28,5 +28,6 @@ p{
 }
 
 img{
-    font-size: medium;
+    font-size:medium;
+    text-align: center;
 }
