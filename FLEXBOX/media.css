@@ -1,0 +1,26 @@
+.main {
+    background-color: red;
+}
+
+.sidebar {
+    background-color: pink;
+}
+
+.footer {
+    background-color: aqua;
+}
+
+.middle-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        background-color: blueviolet;
+    }
+
+    .middle-wrapper {
+        flex-direction: column;
+    }
+}
