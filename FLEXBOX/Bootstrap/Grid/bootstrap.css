@@ -2,8 +2,11 @@
     border: 2px black solid;
 }
 
-body {
-    padding: 4%;
+
+.encabezado {
+    height: 70px;
 }
 
-
+.articulo {
+    height: 400px;
+}
