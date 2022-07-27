@@ -1,12 +1,82 @@
+div {
+    padding: 2px 2px;
+}
+
+
+.conteiner {
+    padding: 10px;
+    color: white;
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .borde {
     border: 2px black solid;
+    border-radius: 3%;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.margin {
+    margin-left: 5px;
+}
+
+.marginDer {
+    margin-right: 5px;
 }
 
 
-.encabezado {
+/*.encabezado {
     height: 70px;
-}
+}*/
 
 .articulo {
-    height: 400px;
+    height: 600px;
+}
+
+.top {
+    padding-top: 10px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.grisOsc {
+    background-color: rgb(68, 67, 67);
+}
+
+.gris {
+    background-color: rgb(180, 175, 175);
+
+}
+
+.celeste {
+    background-color: lightseagreen;
+}
+
+.amarillo {
+    background-color: rgb(245, 144, 28);
+}
+
+.verdeOsc {
+    background-color: rgb(9, 102, 9);
+}
+
+.verdeClaro {
+    background-color: rgb(12, 170, 12);
+}
+
+.marron {
+    background-color: rgb(163, 81, 33);
+}
+
+.pie {
+    background-color: aqua;
+}
+
+.rojoOsc {
+    background-color: rgb(139, 23, 23);
 }
