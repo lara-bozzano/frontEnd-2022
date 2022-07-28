@@ -1,6 +1,4 @@
-div {
-    padding: 2px 2px;
-}
+
 
 
 .conteiner {
@@ -19,12 +17,16 @@ div {
     padding: 10px;
 }
 
+.top {
+    padding-top: 10px;
+}
+
 .margin {
-    margin-left: 5px;
+    margin-top: 6px;
 }
 
 .marginDer {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 
@@ -36,9 +38,7 @@ div {
     height: 600px;
 }
 
-.top {
-    padding-top: 10px;
-}
+
 
 .azul {
     background-color: blue;
@@ -73,7 +73,7 @@ div {
     background-color: rgb(163, 81, 33);
 }
 
-.pie {
+.celeste {
     background-color: aqua;
 }
 
