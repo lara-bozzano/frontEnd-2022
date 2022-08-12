@@ -1,0 +1,9 @@
+.estilo {
+    color: rgb(223, 81, 105);
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ocultar{
+    display: none;
+}
