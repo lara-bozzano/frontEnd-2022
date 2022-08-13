@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     
@@ -16,14 +17,16 @@ la lista de tareas.
 3- Agregar como mínimo dos estilos para los elementos que prefiera.-->
 
     <h1>Lista de Tareas:</h1>
-    <form>
+
         <label for="donTextElement">Ingrese una tarea: </label>
-        <input type="text" id="inputTarea" value="">
+        <input type="text" id="inputTarea" placeholder="Ingrese una nueva tarea" value="">
         <button type="button" id="btn_cargar">Guardar tarea</button>
         <button id="btn_limpiar">Limpiar lista</button>
-    </form>
  
-    <div id="miDiv"> 
+    <div> 
+        <ol id="lista"> 
+
+        </ol>
     </div>
 
     <script src="script.js"></script>

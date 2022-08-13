@@ -4,20 +4,21 @@ btn_cargar.addEventListener("click", guardarTarea);
 let btn_limpiar = document.getElementById("btn_limpiar");
 btn_limpiar.addEventListener("click", limpiarLista);
 
+btn_cargar.classList.add("estiloBotones");
+btn_limpiar.classList.add("estiloBotones");
 
 function guardarTarea(){
-    //let tarea = "anonimo";
     let inputTarea = document.getElementById("inputTarea");
-    //tarea = inputTarea.value;
 
     let miDiv = document.querySelector("div");
 
    let nuevaTarea = document.createElement("li");
    nuevaTarea.innerHTML = inputTarea.value;
+    miDiv.appendChild(nuevaTarea);
 
-miDiv.appendChild(nuevaTarea);
+    nuevaTarea.classList.add("estiloLista");
 }
 
 function limpiarLista(){
-    
+    miDiv.innerHTML = " ";
 }

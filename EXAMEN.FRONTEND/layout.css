@@ -1,0 +1,61 @@
+html {
+    color: black;
+    font-size: 100px;
+    width: 100%;
+    font-style: bold;
+    padding: 15px;
+
+}
+
+.divA {
+ background-color: rgb(238, 82, 134);
+ height: 300px;
+}
+
+.divB {
+    background-color: orange;
+    height: 600px;
+}
+
+.divC {
+    background-color: blueviolet;
+    height: 300px;
+}
+
+#divD {
+    background-color: blue;
+    height: 200px;
+}
+
+.columna {
+        display: flex;
+        flex-direction: column;
+      }
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .columna {
+        flex-direction: row;
+    }
+
+    .divA {
+        background-color: green;
+    }
+
+    .divB{
+        flex-grow: 4;
+    }
+
+    .divC {
+        height: 600px;
+        flex-grow: 1;
+    }
+
+    #divD {
+        background-color: rgb(238, 82, 134);
+
+    }
+}
+

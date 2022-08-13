@@ -1,0 +1,11 @@
+.estiloBotones{
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px pink solid;
+    font-size: medium;
+}
+
+.estiloLista{
+    color: violet;
+    font-family: 'Courier New', Courier, monospace;
+}
