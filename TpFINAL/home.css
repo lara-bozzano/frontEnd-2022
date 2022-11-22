@@ -16,9 +16,12 @@
     text-align: center;
   }
 
-  h2 {
+  .container h2 {
+    display: block;
     font-size: 32px;
     text-align: center;
+    align-items: flex-start;
+
   }
 
   p {
@@ -34,9 +37,9 @@
 header{
     background-color:#d2ecce ;
     width: 100%;
-    height: 80px;
+    height: 90px;
     margin: 10px 5px;
-    border-radius: 10px;
+    margin-top: 0px;
 }
 
   /* NAVBAR */
@@ -96,12 +99,12 @@ header{
   section {
     display: flex;
     flex-direction: column;
+    margin: 10px 5px;
     width: 100%;
-    height: 75vh;
+    height: 700px;
     align-items: center;
-    justify-content: center;
 
-    border: 2px black solid;
+    border-radius: 10px;
   }
 
 footer{
@@ -113,13 +116,14 @@ footer{
 }
 
 /*COPIO Y PEGO TP*/
+
  /* HOME */
- .showcase {
+ /*.showcase {
   background-image: linear-gradient(
       rgba(45, 42, 42, 0.45),
       rgba(30, 28, 28, 0.45)
     ),
-    url("../img/supermercado.jpg");
+    url("carrito.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -127,13 +131,13 @@ footer{
   padding: 100px 40px;
   text-align: center;
   color: white;
-}
+}*/
 
-.showcase p {
-  padding: 20px;
-}
-
-.showcase .container {
+.container p {
+  text-align: center;
+  width: 100%;
+  /*height: 30%;*/
+  border: black solid 1px;
   flex-direction: column;
 }
 
